@@ -1,8 +1,103 @@
-.nav-links{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    background-color: aqua;
-    
-}
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ } 
+  body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+             color:white;
+            background-color: #1b1313;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            
+        }
+
+        nav {
+            max-width: 1200px;
+          display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+            
+            
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            cursor: hand;
+            font-weight: 600;
+            
+            
+        }
+
+        nav a:hover {
+            color: #ff6347;
+           
+        }
+
+       section
+           {
+            margin: 2rem auto;
+            padding: 2rem;
+            max-width: 800px;
+            background-color: #2c1f1f;
+         border-radius: 8px;
+            
+        }
+
+        
+.intro{
+            text-align: center;
+            padding: 4rem 2rem;
+            margin-bottom: 2rem;
+           
+        }
+
+        .intro h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .intro p {
+            
+            font-weight: bold;
+            font-size: 1.2rem;
+            
+            
+            
+        }
+
+        #welcome{
+            text-align: center;
+            font-size: 1.2rem;
+            margin-top: 20px;
+            
+                      
+               }
+
+               #profile{
+                width: 200px;
+                height: 200px;
+                margin-bottom: 1rem;
+               }
